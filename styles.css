@@ -1,0 +1,110 @@
+/* Add your CSS styles here */
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #12171f;
+  color:antiquewhite
+  
+
+}
+
+
+
+#main {
+  padding: 40px;
+  text-align: justify;
+  
+
+}
+
+#title {
+  text-align: center;
+  color: #ea4040;
+  font-weight: 700;
+}
+
+#img-div {
+  text-align: center;
+  
+}
+
+#image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border: 0.5px solid #5e5e5e;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  
+ 
+}
+
+#img-caption {
+  font-style: italic;
+  color: #bbbbbb;
+  margin-top: 10px;
+  font-size: 14px;;
+}
+
+.description {
+  margin-top: 20px;
+
+}
+
+h1{
+  font-size: 40px;;
+}
+
+h2{
+  font-size: 20px;
+}
+
+p{
+  font-size: 14px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #ea4040;
+}
+
+ul {
+  list-style-type: square;
+  padding: 20;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 30px;
+  color:black;
+  background-color:#ffffff ;
+  padding: 10px 0;
+}
+
+a{
+  text-decoration: none;
+  color:#ea4040
+}
+
+a:hover{
+  color:#2b00ff;
+}
+
+a:visited{
+  color:#2b00ff;
+}
+
+@media only screen and (min-width: 1200px) {
+  .description, #img-caption {
+    max-width: 1000px;
+    margin:auto;
+  }
+}
